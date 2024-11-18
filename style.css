@@ -65,7 +65,6 @@ header nav ul li a:hover {
   padding: 60px 20px;
 }
 
-/* Card Styling */
 .card {
   background: white;
   margin: 20px;
@@ -74,7 +73,6 @@ header nav ul li a:hover {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Footer Styling */
 footer {
   text-align: center;
   padding: 20px;
@@ -92,7 +90,6 @@ footer a:hover {
   text-decoration: underline;
 }
 
-/* About Me Section Image */
 #about-me img {
   display: block;
   margin: 30px auto;
@@ -101,10 +98,9 @@ footer a:hover {
   border-radius: 50%;
   border: 5px solid #007BFF;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  object-fit: cover; /* Ensures image is not distorted */
+  object-fit: cover;
 }
 
-/* Memory Section Image Styling */
 #memory img {
   width: 100%;
   max-width: 600px;
@@ -112,7 +108,7 @@ footer a:hover {
   border-radius: 10px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease, filter 0.3s ease;
-  cursor: pointer; /* Adds pointer cursor to indicate interactivity */
+  cursor: pointer;
 }
 
 #memory img:hover {
@@ -120,7 +116,6 @@ footer a:hover {
   filter: grayscale(40%) blur(2px);
 }
 
-/* Memory Section Styling */
 #memory {
   text-align: center;
   margin-top: 20px;
@@ -136,7 +131,6 @@ footer a:hover {
   margin-bottom: 10px;
 }
 
-/* Media Queries for Mobile Responsiveness */
 @media (max-width: 768px) {
   header nav ul {
     flex-direction: column;
@@ -156,7 +150,7 @@ footer a:hover {
     max-width: 100%;
   }
 }
-/* Add styling for certifications section */
+
 #certifications {
   background: white;
   padding: 20px;
